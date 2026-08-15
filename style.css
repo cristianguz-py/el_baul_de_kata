@@ -508,8 +508,7 @@ h1, h2, h3, h4 {
   animation: spinSlow 30s linear infinite;
 }
 
-.about-visual-ring::after {
-  content: "";
+.about-visual-ring-inner {
   position: absolute;
   inset: 10px;
   border-radius: 50%;
